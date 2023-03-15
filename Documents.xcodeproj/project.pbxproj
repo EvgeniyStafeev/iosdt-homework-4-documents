@@ -13,6 +13,10 @@
 		66AAAED528FB400400A3D627 /* FileManagerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAAED428FB400400A3D627 /* FileManagerServiceProtocol.swift */; };
 		66AAAED928FB535F00A3D627 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAAED828FB535F00A3D627 /* FileManagerService.swift */; };
 		66AAAEDC28FB6B2500A3D627 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AAAEDB28FB6B2500A3D627 /* ViewControllerFactory.swift */; };
+		DF183ACD29C2060C00E90F48 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF183ACC29C2060C00E90F48 /* AlertExtension.swift */; };
+		DF183ACF29C2068B00E90F48 /* PasswordKeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF183ACE29C2068B00E90F48 /* PasswordKeychainService.swift */; };
+		DF183AD129C206C800E90F48 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF183AD029C206C800E90F48 /* PasswordViewController.swift */; };
+		DF183AD329C2071E00E90F48 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF183AD229C2071E00E90F48 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		66AAAED428FB400400A3D627 /* FileManagerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerServiceProtocol.swift; sourceTree = "<group>"; };
 		66AAAED828FB535F00A3D627 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
 		66AAAEDB28FB6B2500A3D627 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		DF183ACC29C2060C00E90F48 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		DF183ACE29C2068B00E90F48 /* PasswordKeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeychainService.swift; sourceTree = "<group>"; };
+		DF183AD029C206C800E90F48 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		DF183AD229C2071E00E90F48 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				66AAAED428FB400400A3D627 /* FileManagerServiceProtocol.swift */,
 				66AAAED828FB535F00A3D627 /* FileManagerService.swift */,
 				66AAAEDB28FB6B2500A3D627 /* ViewControllerFactory.swift */,
+				DF183ACC29C2060C00E90F48 /* AlertExtension.swift */,
+				DF183ACE29C2068B00E90F48 /* PasswordKeychainService.swift */,
+				DF183AD029C206C800E90F48 /* PasswordViewController.swift */,
+				DF183AD229C2071E00E90F48 /* SettingViewController.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -136,9 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF183ACD29C2060C00E90F48 /* AlertExtension.swift in Sources */,
 				66AAAEDC28FB6B2500A3D627 /* ViewControllerFactory.swift in Sources */,
 				66AAAED528FB400400A3D627 /* FileManagerServiceProtocol.swift in Sources */,
+				DF183AD329C2071E00E90F48 /* SettingViewController.swift in Sources */,
+				DF183AD129C206C800E90F48 /* PasswordViewController.swift in Sources */,
 				66AAAEBE28FB3CB200A3D627 /* AppDelegate.swift in Sources */,
+				DF183ACF29C2068B00E90F48 /* PasswordKeychainService.swift in Sources */,
 				66AAAED928FB535F00A3D627 /* FileManagerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
